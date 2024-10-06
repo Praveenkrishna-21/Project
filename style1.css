@@ -1,0 +1,66 @@
+
+.loginbox{
+    width: 300px;
+    height: 450px;
+    background: #1c2833;
+    color: white;
+    margin: 70px auto;
+    border-radius: 10px;
+}
+.logo{
+
+    width: 100px;
+    height:100px;
+    position: relative;
+    top: -70px;
+    left: calc(50% - 50px);
+
+}
+h1{
+    text-align: center;
+    margin-top: -60px;
+}
+
+label{
+
+    font-size: 18px;
+    display: block;
+    margin-left: 20px;
+}
+
+input{
+
+    width: 80%;
+    margin: 0 0 20px 20px;
+}
+
+input[type="email"],input[type="password"]{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    height: 40px;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+
+input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 20px;
+    background: #fb2525;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30%;
+}
+
+input[type="submit"]:hover{
+    background: blueviolet;
+}

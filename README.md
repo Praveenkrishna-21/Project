@@ -1,2 +1,2 @@
-# Project
-scholarship management 
+# dbms_miniproject
+Scholarship Management System
